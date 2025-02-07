@@ -30,6 +30,17 @@
             padding: 10px;
             display: inline-block;
         }
+         .product {
+            border: 1px solid #ddd;
+            margin: 10px;
+            padding: 10px;
+            display: inline-block;
+        }
+        img{
+            height: 200px;
+            width: 200px;
+        }
+        
     </style>
 </head>
 <body>
@@ -42,22 +53,25 @@
     </nav>
     <div class="container">
         <h1>Your Shopping Cart</h1>
-        <div class="cart-item">
+        <div class="product">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI3-jmu07Elle9pHzrg0Gq9fNaVDbm_CVzdQ&s" alt="">
             <h3>Product 1</h3>
             <p>Price: $10</p>
-            <p>Quantity: 1</p>
-        </div>
-        <div class="cart-item">
-            <h3>Product 2</h3>
-            <p>Price: $20</p>
             <p>Quantity: 2</p>
         </div>
-        <div class="cart-item">
-            <h3>Product 3</h3>
-            <p>Price: $30</p>
+        <div class="product">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfkhs7u7yJ4_E0wnswUHsJVrzeSJZHW6SQnmRvbe3F3cbRy3X7Fnpkf0MVoESUpBzl3DU&usqp=CAU" alt="">
+            <h3>Product 2</h3>
+            <p>Price: $20</p>
             <p>Quantity: 1</p>
         </div>
-        <h2>Total: $80</h2>
+        <div class="product">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBmZboja9s_gmzUyXT4p7aYJR3x0NdDnl7_LQW3ax6uHPbNvZoT6DZ7EbvgcsAIf2JTks&usqp=CAU" alt="">
+            <h3>Product 3</h3>
+            <p>Price: $30</p>
+            <p>Quantity: 2</p>
+        </div>
+        <h2>Total: $100</h2>
     </div>
 </body>
 </html>
